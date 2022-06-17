@@ -6,7 +6,7 @@ import json
 
 import torch
 
-from src.utils import Print
+from targetnet.utils import Print
 
 
 class DataConfig():

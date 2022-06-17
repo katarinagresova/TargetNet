@@ -8,7 +8,7 @@ from collections import OrderedDict
 import torch
 import torch.nn.functional as F
 
-from src.utils import Print
+from targetnet.utils import Print
 
 
 class Trainer():

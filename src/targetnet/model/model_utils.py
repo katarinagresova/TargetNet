@@ -2,7 +2,7 @@
 
 import torch.nn as nn
 
-from src.model.model import TargetNet
+from targetnet.model.model import TargetNet
 
 
 def get_model(model_cfg, with_esa, dropout_rate=None):
