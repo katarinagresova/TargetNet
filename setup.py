@@ -12,8 +12,8 @@ setup(
     author="",
     author_email="",
     url="https://github.com/katarinagresova/TargetNet",
-    packages=find_packages(include=["src"]),
-    package_dir={"src": "src"},
+    packages=find_packages(where="src"),
+    package_dir={"": "src"},
     scripts=[],
     install_requires=[
         "pip>=20.0.1",
